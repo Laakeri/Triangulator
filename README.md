@@ -21,18 +21,18 @@ You should use a flag to select the graph parameter that is optimized. Available
 
 There are also additional flags:
 * -pmcprogress : Print information to stderr during the PMC enumeration phase.
-* -k : Set an upper bound for the search. Triangulator will report the optimal solution or that the value of the optimal solution is higher than k. Use e.g. `-k=12` Currently works only with treewidth and minfill.
+* -k : Set an upper bound for the search. Triangulator will report the optimal solution or that the value of the optimal solution is higher than k. Use e.g. `-k=12` Currently works only with treewidth and minimum fill-in.
 
 ### File formats
 Triangulator supports multiple graph formats. The graphs in directories `instances`, `instances-hyper` and `instances-bayes` give examples of some supported formats.
 
-For normal graphs the formats used in both of the tracks of the [PACE 2017 challenge](https://pacechallenge.wordpress.com/2016/12/01/announcing-pace-2017/) and the dimacs graph format are supported.
+For normal graphs the formats used in both of the tracks of the [PACE 2017 challenge](https://pacechallenge.wordpress.com/2016/12/01/announcing-pace-2017/) and the [DIMACS](http://prolland.free.fr/works/research/dsat/dimacs.html) graph format are supported.
 
 For hypergraphs the format used in the [CSP hypergraph library](https://www.dbai.tuwien.ac.at/proj/hypertree/downloads.html) is supported.
 
 For Bayesian networks the .bif, .dsc and .net formats are supported.
 
 ### Additional notes
-To use GLPK as the LP solver you need to edit `src/Makefile`.
+To use GLPK as the LP solver for Fractional hypertreewidth you need to modify `src/Makefile`.
 
 The output formats for hypergraphs and Bayesian networks are likely not very useful. Feel free to open an issue if there is an output format that would be useful for your project.
