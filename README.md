@@ -18,3 +18,7 @@ You should use a flag to select the optimized graph measure. Available options a
 * -hyper : Generalized hypertreewidth of a hypergraph
 * -frachyper : Fractional hypertreewidth of a hypergraph
 * -bayes : Total table size of a Bayesian network
+
+There are also additional flags:
+* -pmcprogress : Print information to stderr during the PMC enumeration phase.
+* -k : Set an upper bound for the search. Triangulator will report the optimal solution or that the value of the optimal solution is higher than k. Use e.g. `-k=12` Currently works only with treewidth and minfill.
