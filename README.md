@@ -33,4 +33,6 @@ For hypergraphs only the format used in the [CSP hypergraph library](https://www
 For Bayesian networks the .bif, .dsc and .net formats are supported.
 
 ### Additional notes
-To use glpk as a LP solver you need to edit the `src/Makefile`.
+To use GLPK as the LP solver you need to edit `src/Makefile`.
+
+The output formats for hypergraphs and Bayesian networks are likely not very useful. Feel free to open an issue if there is an output format that would be useful for your project.
