@@ -31,3 +31,6 @@ For normal graphs the formats used in both of the tracks of the [PACE 2017 chall
 For hypergraphs only the format used in the [CSP hypergraph library](https://www.dbai.tuwien.ac.at/proj/hypertree/downloads.html) is supported.
 
 For Bayesian networks the .bif, .dsc and .net formats are supported.
+
+### Additional notes
+To use glpk as a LP solver you need to edit the `src/Makefile`.
