@@ -1,2 +1,2 @@
 # Triangulator
-Implementation of Bouchitté-Todinca algorithm for finding optimal graph triangulations
+Implementation of the Bouchitté-Todinca algorithm for finding optimal graph triangulations
