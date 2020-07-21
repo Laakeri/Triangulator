@@ -1,4 +1,6 @@
 # Triangulator
+Note: An improved implementation is available in [https://github.com/Laakeri/triangulator-msc](https://github.com/Laakeri/triangulator-msc).
+
 Implementation of the Bouchitté-Todinca algorithm for finding optimal graph triangulations.
 
 Triangulator can be used for finding an optimal solution for the following problems: The treewidth and minimum fill-in of a graph, the generalized hypertreewidth and fractional hypertreewidth of a hypergraph, the total table size of a Bayesian network.
