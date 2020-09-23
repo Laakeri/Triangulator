@@ -1,5 +1,6 @@
+# Note: The new implementation available in [https://github.com/Laakeri/triangulator-msc](https://github.com/Laakeri/triangulator-msc) outperforms this implementation.
+
 # Triangulator
-Note: An improved implementation is available in [https://github.com/Laakeri/triangulator-msc](https://github.com/Laakeri/triangulator-msc).
 
 Implementation of the Bouchitté-Todinca algorithm for finding optimal graph triangulations.
 
